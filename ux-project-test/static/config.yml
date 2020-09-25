@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections: 
+  - name: "contact"
+    label: "Contact"
+    folder: "src/pages/contact"
+    create: true 
+    fields: 
+      - {label: "Email address", name: "email"}
+      - {label: "Phone", name: "phone"}
+      - {label: "Address", name: "address"}
