@@ -6,7 +6,7 @@ return (
     <nav>
         
        <ul>
-           <li> <Link to="/index/"> Home </Link> </li> 
+           <li> <Link to="/"> Home </Link> </li> 
            <li>  <Link to="/contact/"> Contact us </Link> </li> 
            <li> <Link to="/about/"> About </Link> </li> 
            
