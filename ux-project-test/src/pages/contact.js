@@ -13,17 +13,18 @@ export default function Contact() {
           <p class="form-group">
             <label >Email address: </label>
             <input
+              name="email"
               type="email"
               class="form-control"   
             ></input>
           </p>
           <p class="form-group">
             <label >Phone: </label>
-            <input type="text" class="form-control"></input>
+            <input name="phone" type="text" class="form-control"></input>
           </p>
           <p class="form-group">
             <label>Address: </label>
-            <input type="text" class="form-control" ></input>
+            <input name="address" type="text" class="form-control" ></input>
           </p>
           <button type="submit" class="btn btn-primary">
             Submit
