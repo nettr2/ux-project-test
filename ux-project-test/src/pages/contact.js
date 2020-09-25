@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div>
       <Navigation></Navigation>
-      <Layout>
+      <Layout></Layout>
         <Header headerText="Contact Page"></Header>
         <form name="contact" method="POST" data-netlify="true">
           <p class="form-group">
@@ -28,8 +28,7 @@ export default function Contact() {
           <button type="submit" class="btn btn-primary">
             Submit
           </button>
-        </form>
-      </Layout>
+        </form> 
     </div>
   )
 }
