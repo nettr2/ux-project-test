@@ -10,6 +10,7 @@ export default function Contact() {
       <Layout>
         <Header headerText="Contact Page"></Header>
         <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
           <p class="form-group">
             <label >Email address: </label>
             <input
